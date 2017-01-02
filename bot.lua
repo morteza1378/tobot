@@ -1,4 +1,6 @@
-﻿package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua' 
+-- creator HIDDEN BOY
+-- channel @shield_tm
+package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua' 
   ..';.luarocks/share/lua/5.2/?/init.lua' 
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so' 
 URL = require('socket.url') 
@@ -8,24 +10,31 @@ HTTPS = require('ssl.https')
 local bot_api_key = "توکن" 
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key 
 local BASE_FOLDER = "" 
-local start = [[*Welcome To RIX*
+local start = [[*Welcome To SHIELD BOT*
 
-_📚Help:_
+_📚 Help :_
 
-1 - Send Me Sticker▶️Get It As Photo And File for sticker bot ‌  official telegram❗️
+1 - Send Me Sticker ▶️ Get It As Photo And File for sticker bot ‌  official telegram❗️
 
-2 - Send Me Photo▶️Get It As sticker❗️
+🎆 با ارسال استیکر به ربات عکس و فایل استیکرتان را دریافت کنید
+⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵
+2 - Send Me Photo ▶ ️Get It As sticker❗
 
-3 - /code text   ▶️`code text`
-4 - /bold text    ▶️*bold text*
-5 - /italic text   ▶️_italic text_
-6 - /link LINK TEXT    ▶️[Hyper](https://telegram.me)
+🃏 با ارسال عکس به ربات استیکر عکس را دریافت کنید
+✖✖✖✖✖✖✖✖✖✖✖
+3 - /code text  ▶️ `code text`
+4 - /bold text   ▶ ️*bold text*
+5 - /italic text ▶ ️_italic text_
+6 - /link LINK TEXT ▶️ [HYPER](https://telegram.me)
+👉➖➖➖➖➖➖➖➖➖👈
+*Developer ⚡* [‌PEDI SHIELD](https://telegram.me/Xx_KinG_SuPeR_AdMiN_SHIELD_xX)
+*Creator ⚒* [HIDDEN BOY](https://telegram.me/Xx_PesareShield_shah2Arvah_xX)
+*Bot Channel 📣* [کانال ‌تـــیـــم شــیــلــد لمس کنید](https://telegram.me/shield_tm)
 
-*creator⚒* [HIDDEN BOY](https://telegram.me/Xx_PesareShield_shah2Arvah_xX)
-*Bot Channel📣* [Join](https://telegram.me/shield_tm)
 
-
-_Good Luck👋_ ]] 
+_Good Luck 👋_
+=======================
+🇸 🇭 🇮 🇪 🇱 🇩™ ]] 
 ----------
 
 ----utilites---- 
@@ -218,11 +227,13 @@ local caption = [[slm]]
  local url = BASE_URL .. '/getFile?file_id='..file
  local res = HTTPS.request(url)
  local jres = JSON.decode(res)
- filename = "@RIX_robot.png"
+ filename = "@SHIELD_robot.png"
 file = download_to_file("https://api.telegram.org/file/bot"..bot_api_key.."/"..jres.result.file_path, filename)
  local caption = [[
 Bot Channel: @shield_tm
+➕➕➕➕➕➕➕➕➕➕➕
 فایل زیر در استیکر ساز رسمی تلگرام قابل استفاده است⬇
+➖➖➖➖➖➖➖➖➖➖
 file under the sticker official telegram usable building Ast⬇ ]]
  sendPhoto(msg.chat.id, file,caption)
 sendDocument(msg.chat.id, file,caption)
@@ -293,3 +304,6 @@ while is_running do
 	end
 end
 print("Crashed: @Xx_PesareShield_shah2Arvah_xX")
+
+-- creator HIDDEN BOY
+-- channel @shield_tm
