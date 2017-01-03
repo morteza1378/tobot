@@ -10,30 +10,34 @@ HTTPS = require('ssl.https')
 local bot_api_key = "توکن" 
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key 
 local BASE_FOLDER = "" 
-local start = [[*Welcome To SHIELD BOT*
+local start = [[*⚡ Welcome To SHIELD BOT ⚡*
 
 _📚 Help :_
 
 1 - Send Me Sticker ▶️ Get It As Photo And File for sticker bot ‌  official telegram❗️
 
 🎆 با ارسال استیکر به ربات عکس و فایل استیکرتان را دریافت کنید
-⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵
+
+⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵
+
 2 - Send Me Photo ▶ ️Get It As sticker❗
 
 🃏 با ارسال عکس به ربات استیکر عکس را دریافت کنید
-✖✖✖✖✖✖✖✖✖✖✖
+
+✖✖✖✖✖✖✖✖✖✖✖✖✖✖
 3 - /code text  ▶️ `code text`
 4 - /bold text   ▶ ️*bold text*
-5 - /italic text ▶ ️_italic text_
-6 - /link LINK TEXT ▶️ [HYPER](https://telegram.me)
-👉➖➖➖➖➖➖➖➖➖👈
+5 - /italic text  ▶  ️_italic text_
+6 - /link LINK TEXT ▶️  [HYPER](https://telegram.me)
+👉➖➖➖➖➖➖➖➖➖➖➖➖➖➖👈
 *Developer ⚡* [‌PEDI SHIELD](https://telegram.me/Xx_KinG_SuPeR_AdMiN_SHIELD_xX)
 *Creator ⚒* [HIDDEN BOY](https://telegram.me/Xx_PesareShield_shah2Arvah_xX)
+
 *Bot Channel 📣* [کانال ‌تـــیـــم شــیــلــد لمس کنید](https://telegram.me/shield_tm)
 
 
 _Good Luck 👋_
-=======================
+===========================
 🇸 🇭 🇮 🇪 🇱 🇩™ ]] 
 ----------
 
@@ -191,7 +195,7 @@ function bot_run()
 
    bot = bot.result 
 
-   local bot_info = "ربات روشن شد\nیوزرنیم ربات: = @"..bot.username.."\nنام ربات: = "..bot.first_name.."\nایدی ربات: = "..bot.id.."\nسازنده: @Xx_PesareShield_shah2Arvah_xX" 
+   local bot_info = "ربات روشن شد\nیوزرنیم ربات: = @"..bot.username.."\nنام ربات: = "..bot.first_name.."\nایدی ربات: = "..bot.id.."\nسازنده: @Xx_PesareShield_shah2Arvah_xX\n@Xx_KinG_SuPeR_AdMiN_SHIELD_xX" 
 
    print(bot_info) 
 
@@ -230,11 +234,11 @@ local caption = [[slm]]
  filename = "@SHIELD_robot.png"
 file = download_to_file("https://api.telegram.org/file/bot"..bot_api_key.."/"..jres.result.file_path, filename)
  local caption = [[
-Bot Channel: @shield_tm
+Bot Channel: [تـــیـــم شـــیــلـــد](https://telegram.me/shield_tm)
 ➕➕➕➕➕➕➕➕➕➕➕
 فایل زیر در استیکر ساز رسمی تلگرام قابل استفاده است⬇
-➖➖➖➖➖➖➖➖➖➖
-file under the sticker official telegram usable building Ast⬇ ]]
+➖➖➖➖➖➖➖➖➖➖➖
+file under the sticker official telegram usable building⬇ ]]
  sendPhoto(msg.chat.id, file,caption)
 sendDocument(msg.chat.id, file,caption)
 
@@ -300,10 +304,10 @@ while is_running do
 			msg_processor(v.message)
 		end
 	else
-		print("Crashed: @Xx_PesareShield_shah2Arvah_xX")
+		print("Crashed: @Xx_PesareShield_shah2Arvah_xX & @Xx_KinG_SuPeR_AdMiN_SHIELD_xX")
 	end
 end
-print("Crashed: @Xx_PesareShield_shah2Arvah_xX")
+print("Crashed: @Xx_PesareShield_shah2Arvah_xX & @Xx_KinG_SuPeR_AdMiN_SHIELD_xX")
 
 -- creator HIDDEN BOY
 -- channel @shield_tm
