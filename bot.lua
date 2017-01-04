@@ -18,20 +18,20 @@ _📚 Help :_
 
 🎆 با ارسال استیکر به ربات عکس و فایل استیکرتان را دریافت کنید
 
-⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵
+⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵
 
 2 - Send Me Photo ▶ ️Get It As sticker❗
 
 🃏 با ارسال عکس به ربات استیکر عکس را دریافت کنید
 
-✖✖✖✖✖✖✖✖✖✖✖✖✖✖
+✖✖✖✖✖✖✖✖✖✖✖✖✖
 3 - /code text  ▶️ `code text`
 4 - /bold text   ▶ ️*bold text*
 5 - /italic text  ▶  ️_italic text_
 6 - /link LINK TEXT ▶️  [HYPER](https://telegram.me)
-👉➖➖➖➖➖➖➖➖➖➖➖➖➖➖👈
+👉➖➖➖➖➖➖➖➖➖➖👈
 *Developer ⚡* [‌PEDI SHIELD](https://telegram.me/Xx_KinG_SuPeR_AdMiN_SHIELD_xX)
-*Creator ⚒* [HIDDEN BOY](https://telegram.me/Xx_PesareShield_shah2Arvah_xX)
+*Creator 🔧* [HIDDEN BOY](https://telegram.me/Xx_PesareShield_shah2Arvah_xX)
 
 *Bot Channel 📣* [کانال ‌تـــیـــم شــیــلــد لمس کنید](https://telegram.me/shield_tm)
 
@@ -234,11 +234,11 @@ local caption = [[slm]]
  filename = "@SHIELD_robot.png"
 file = download_to_file("https://api.telegram.org/file/bot"..bot_api_key.."/"..jres.result.file_path, filename)
  local caption = [[
-Bot Channel: [تـــیـــم شـــیــلـــد](https://telegram.me/shield_tm)
+🆔 Bot Channel : @shield_tm
 ➕➕➕➕➕➕➕➕➕➕➕
 فایل زیر در استیکر ساز رسمی تلگرام قابل استفاده است⬇
 ➖➖➖➖➖➖➖➖➖➖➖
-file under the sticker official telegram usable building⬇ ]]
+file under the sticker official telegram usable building⬇️️]]
  sendPhoto(msg.chat.id, file,caption)
 sendDocument(msg.chat.id, file,caption)
 
